@@ -1,0 +1,10 @@
+^D:\DESKTOP\SZH-PHOTO\CMAKELISTS.TXT
+setlocal
+D:\dev\Anaconda3\envs\szh\Library\bin\cmake.exe -SD:/desktop/SZH-photo -BD:/desktop/SZH-photo/build --check-stamp-file D:/desktop/SZH-photo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

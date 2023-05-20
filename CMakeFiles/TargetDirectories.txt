@@ -1,0 +1,5 @@
+D:/desktop/SZH-photo/build/CMakeFiles/problem1.dir
+D:/desktop/SZH-photo/build/CMakeFiles/problem2.dir
+D:/desktop/SZH-photo/build/CMakeFiles/problem3.dir
+D:/desktop/SZH-photo/build/CMakeFiles/ALL_BUILD.dir
+D:/desktop/SZH-photo/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,623 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/5/2 15:43:49。
+      节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\desktop\\SZH-photo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.73
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/desktop/SZH-photo/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/5/2 15:43:50。
+      节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\desktop\\SZH-photo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.56
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/desktop/SZH-photo/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-f6834i"
+      binary: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-f6834i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-f6834i
+        
+        Run Build Command(s):D:/SoftWare/Program Files/Microsoft-software/VS2019/MSBuild/Current/Bin/MSBuild.exe cmTC_7fb30.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/2 15:43:51。
+        节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6834i\\cmTC_7fb30.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7fb30.dir\\Debug\\”。
+          正在创建目录“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6834i\\Debug\\”。
+          正在创建目录“cmTC_7fb30.dir\\Debug\\cmTC_7fb30.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7fb30.dir\\Debug\\cmTC_7fb30.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fb30.dir\\Debug\\\\" /Fd"cmTC_7fb30.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\dev\\Anaconda3\\envs\\szh\\Library\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fb30.dir\\Debug\\\\" /Fd"cmTC_7fb30.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\dev\\Anaconda3\\envs\\szh\\Library\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6834i\\Debug\\cmTC_7fb30.exe" /INCREMENTAL /ILK:"cmTC_7fb30.dir\\Debug\\cmTC_7fb30.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-f6834i/Debug/cmTC_7fb30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-f6834i/Debug/cmTC_7fb30.lib" /MACHINE:X64  /machine:x64 cmTC_7fb30.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7fb30.vcxproj -> D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6834i\\Debug\\cmTC_7fb30.exe
+        PostBuildEvent:
+          setlocal
+          powershell -noprofile -executionpolicy Bypass -file D:/dev/Anaconda3/envs/szh/Library/../applocal.ps1 -targetBinary D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-f6834i/Debug/cmTC_7fb30.exe -installedDir D:/dev/Anaconda3/envs/szh/Library/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_7fb30.dir\\Debug\\cmTC_7fb30.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_7fb30.dir\\Debug\\cmTC_7fb30.tlog\\cmTC_7fb30.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6834i\\cmTC_7fb30.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-bu6h6o"
+      binary: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-bu6h6o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-bu6h6o
+        
+        Run Build Command(s):D:/SoftWare/Program Files/Microsoft-software/VS2019/MSBuild/Current/Bin/MSBuild.exe cmTC_e0955.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/2 15:43:53。
+        节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bu6h6o\\cmTC_e0955.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e0955.dir\\Debug\\”。
+          正在创建目录“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bu6h6o\\Debug\\”。
+          正在创建目录“cmTC_e0955.dir\\Debug\\cmTC_e0955.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e0955.dir\\Debug\\cmTC_e0955.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e0955.dir\\Debug\\\\" /Fd"cmTC_e0955.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\dev\\Anaconda3\\envs\\szh\\Library\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e0955.dir\\Debug\\\\" /Fd"cmTC_e0955.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\dev\\Anaconda3\\envs\\szh\\Library\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bu6h6o\\Debug\\cmTC_e0955.exe" /INCREMENTAL /ILK:"cmTC_e0955.dir\\Debug\\cmTC_e0955.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-bu6h6o/Debug/cmTC_e0955.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-bu6h6o/Debug/cmTC_e0955.lib" /MACHINE:X64  /machine:x64 cmTC_e0955.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e0955.vcxproj -> D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bu6h6o\\Debug\\cmTC_e0955.exe
+        PostBuildEvent:
+          setlocal
+          powershell -noprofile -executionpolicy Bypass -file D:/dev/Anaconda3/envs/szh/Library/../applocal.ps1 -targetBinary D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-bu6h6o/Debug/cmTC_e0955.exe -installedDir D:/dev/Anaconda3/envs/szh/Library/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e0955.dir\\Debug\\cmTC_e0955.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e0955.dir\\Debug\\cmTC_e0955.tlog\\cmTC_e0955.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bu6h6o\\cmTC_e0955.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/CeresConfig.cmake:179 (find_dependency)"
+      - "CMakeLists.txt:34 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-6aht95"
+      binary: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-6aht95"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-6aht95
+        
+        Run Build Command(s):D:/SoftWare/Program Files/Microsoft-software/VS2019/MSBuild/Current/Bin/MSBuild.exe cmTC_17fe9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/2 15:43:54。
+        节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\cmTC_17fe9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_17fe9.dir\\Debug\\”。
+          正在创建目录“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\Debug\\”。
+          正在创建目录“cmTC_17fe9.dir\\Debug\\cmTC_17fe9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_17fe9.dir\\Debug\\cmTC_17fe9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17fe9.dir\\Debug\\\\" /Fd"cmTC_17fe9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17fe9.dir\\Debug\\\\" /Fd"cmTC_17fe9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\src.c"
+        D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\cmTC_17fe9.vcxproj]
+        已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\cmTC_17fe9.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\cmTC_17fe9.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6aht95\\cmTC_17fe9.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/CeresConfig.cmake:179 (find_dependency)"
+      - "CMakeLists.txt:34 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3bo5am"
+      binary: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3bo5am"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3bo5am
+        
+        Run Build Command(s):D:/SoftWare/Program Files/Microsoft-software/VS2019/MSBuild/Current/Bin/MSBuild.exe cmTC_4f58e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/2 15:43:55。
+        节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\cmTC_4f58e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_4f58e.dir\\Debug\\”。
+          正在创建目录“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\Debug\\”。
+          正在创建目录“cmTC_4f58e.dir\\Debug\\cmTC_4f58e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_4f58e.dir\\Debug\\cmTC_4f58e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f58e.dir\\Debug\\\\" /Fd"cmTC_4f58e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f58e.dir\\Debug\\\\" /Fd"cmTC_4f58e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\CheckFunctionExists.c"
+        Link:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\Debug\\cmTC_4f58e.exe" /INCREMENTAL /ILK:"cmTC_4f58e.dir\\Debug\\cmTC_4f58e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3bo5am/Debug/cmTC_4f58e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3bo5am/Debug/cmTC_4f58e.lib" /MACHINE:X64  /machine:x64 cmTC_4f58e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\cmTC_4f58e.vcxproj]
+        已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\cmTC_4f58e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\cmTC_4f58e.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bo5am\\cmTC_4f58e.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/CeresConfig.cmake:179 (find_dependency)"
+      - "CMakeLists.txt:34 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-dy7e0e"
+      binary: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-dy7e0e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-dy7e0e
+        
+        Run Build Command(s):D:/SoftWare/Program Files/Microsoft-software/VS2019/MSBuild/Current/Bin/MSBuild.exe cmTC_c9074.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/2 15:43:56。
+        节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\cmTC_c9074.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c9074.dir\\Debug\\”。
+          正在创建目录“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\Debug\\”。
+          正在创建目录“cmTC_c9074.dir\\Debug\\cmTC_c9074.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c9074.dir\\Debug\\cmTC_c9074.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9074.dir\\Debug\\\\" /Fd"cmTC_c9074.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9074.dir\\Debug\\\\" /Fd"cmTC_c9074.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\CheckFunctionExists.c"
+        Link:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\Debug\\cmTC_c9074.exe" /INCREMENTAL /ILK:"cmTC_c9074.dir\\Debug\\cmTC_c9074.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-dy7e0e/Debug/cmTC_c9074.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-dy7e0e/Debug/cmTC_c9074.lib" /MACHINE:X64  /machine:x64 cmTC_c9074.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\cmTC_c9074.vcxproj]
+        已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\cmTC_c9074.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\cmTC_c9074.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy7e0e\\cmTC_c9074.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindBLAS.cmake:367 (check_function_exists)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindBLAS.cmake:411 (check_blas_libraries)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/suitesparse-5.4.0/suitesparse-config.cmake:13 (find_dependency)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/FindSuiteSparse.cmake:94 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/CeresConfig.cmake:183 (find_dependency)"
+      - "CMakeLists.txt:34 (find_package)"
+    directories:
+      source: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-zd9lec"
+      binary: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-zd9lec"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-zd9lec
+        
+        Run Build Command(s):D:/SoftWare/Program Files/Microsoft-software/VS2019/MSBuild/Current/Bin/MSBuild.exe cmTC_e0067.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/2 15:43:56。
+        节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\cmTC_e0067.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e0067.dir\\Debug\\”。
+          正在创建目录“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\Debug\\”。
+          正在创建目录“cmTC_e0067.dir\\Debug\\cmTC_e0067.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e0067.dir\\Debug\\cmTC_e0067.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0067.dir\\Debug\\\\" /Fd"cmTC_e0067.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0067.dir\\Debug\\\\" /Fd"cmTC_e0067.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\CheckFunctionExists.c"
+        Link:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\Debug\\cmTC_e0067.exe" /INCREMENTAL /ILK:"cmTC_e0067.dir\\Debug\\cmTC_e0067.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-zd9lec/Debug/cmTC_e0067.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-zd9lec/Debug/cmTC_e0067.lib" /MACHINE:X64  /machine:x64 cmTC_e0067.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 sgemm_，函数 main 中引用了该符号 [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\cmTC_e0067.vcxproj]
+        D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\Debug\\cmTC_e0067.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\cmTC_e0067.vcxproj]
+        已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\cmTC_e0067.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\cmTC_e0067.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 sgemm_，函数 main 中引用了该符号 [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\cmTC_e0067.vcxproj]
+          D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\Debug\\cmTC_e0067.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zd9lec\\cmTC_e0067.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindBLAS.cmake:367 (check_function_exists)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindBLAS.cmake:748 (check_blas_libraries)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/suitesparse-5.4.0/suitesparse-config.cmake:13 (find_dependency)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/FindSuiteSparse.cmake:94 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/CeresConfig.cmake:183 (find_dependency)"
+      - "CMakeLists.txt:34 (find_package)"
+    directories:
+      source: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-y40znm"
+      binary: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-y40znm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres"
+    buildResult:
+      variable: "BLAS_openblas_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-y40znm
+        
+        Run Build Command(s):D:/SoftWare/Program Files/Microsoft-software/VS2019/MSBuild/Current/Bin/MSBuild.exe cmTC_e1816.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/2 15:43:57。
+        节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y40znm\\cmTC_e1816.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e1816.dir\\Debug\\”。
+          正在创建目录“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y40znm\\Debug\\”。
+          正在创建目录“cmTC_e1816.dir\\Debug\\cmTC_e1816.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e1816.dir\\Debug\\cmTC_e1816.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1816.dir\\Debug\\\\" /Fd"cmTC_e1816.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y40znm\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1816.dir\\Debug\\\\" /Fd"cmTC_e1816.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y40znm\\CheckFunctionExists.c"
+        Link:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y40znm\\Debug\\cmTC_e1816.exe" /INCREMENTAL /ILK:"cmTC_e1816.dir\\Debug\\cmTC_e1816.ilk" /NOLOGO D:\\dev\\Anaconda3\\envs\\szh\\Library\\lib\\openblas.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-y40znm/Debug/cmTC_e1816.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-y40znm/Debug/cmTC_e1816.lib" /MACHINE:X64  /machine:x64 cmTC_e1816.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_e1816.vcxproj -> D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y40znm\\Debug\\cmTC_e1816.exe
+        PostBuildEvent:
+          setlocal
+          powershell -noprofile -executionpolicy Bypass -file D:/dev/Anaconda3/envs/szh/Library/../applocal.ps1 -targetBinary D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-y40znm/Debug/cmTC_e1816.exe -installedDir D:/dev/Anaconda3/envs/szh/Library/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e1816.dir\\Debug\\cmTC_e1816.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e1816.dir\\Debug\\cmTC_e1816.tlog\\cmTC_e1816.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y40znm\\cmTC_e1816.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindLAPACK.cmake:220 (check_function_exists)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/FindLAPACK.cmake:395 (check_lapack_libraries)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/suitesparse-5.4.0/suitesparse-config.cmake:14 (find_dependency)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/FindSuiteSparse.cmake:94 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres/CeresConfig.cmake:183 (find_dependency)"
+      - "CMakeLists.txt:34 (find_package)"
+    directories:
+      source: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3tex6z"
+      binary: "D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3tex6z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/dev/Anaconda3/envs/szh/Library/lib/cmake/Ceres"
+    buildResult:
+      variable: "LAPACK_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3tex6z
+        
+        Run Build Command(s):D:/SoftWare/Program Files/Microsoft-software/VS2019/MSBuild/Current/Bin/MSBuild.exe cmTC_d7c49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/2 15:43:59。
+        节点 1 上的项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tex6z\\cmTC_d7c49.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d7c49.dir\\Debug\\”。
+          正在创建目录“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tex6z\\Debug\\”。
+          正在创建目录“cmTC_d7c49.dir\\Debug\\cmTC_d7c49.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d7c49.dir\\Debug\\cmTC_d7c49.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cheev_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7c49.dir\\Debug\\\\" /Fd"cmTC_d7c49.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tex6z\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cheev_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7c49.dir\\Debug\\\\" /Fd"cmTC_d7c49.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tex6z\\CheckFunctionExists.c"
+        Link:
+          D:\\SoftWare\\Program Files\\Microsoft-software\\VS2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tex6z\\Debug\\cmTC_d7c49.exe" /INCREMENTAL /ILK:"cmTC_d7c49.dir\\Debug\\cmTC_d7c49.ilk" /NOLOGO D:\\dev\\Anaconda3\\envs\\szh\\Library\\lib\\openblas.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3tex6z/Debug/cmTC_d7c49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3tex6z/Debug/cmTC_d7c49.lib" /MACHINE:X64  /machine:x64 cmTC_d7c49.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_d7c49.vcxproj -> D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tex6z\\Debug\\cmTC_d7c49.exe
+        PostBuildEvent:
+          setlocal
+          powershell -noprofile -executionpolicy Bypass -file D:/dev/Anaconda3/envs/szh/Library/../applocal.ps1 -targetBinary D:/desktop/SZH-photo/build/CMakeFiles/CMakeScratch/TryCompile-3tex6z/Debug/cmTC_d7c49.exe -installedDir D:/dev/Anaconda3/envs/szh/Library/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d7c49.dir\\Debug\\cmTC_d7c49.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d7c49.dir\\Debug\\cmTC_d7c49.tlog\\cmTC_d7c49.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\desktop\\SZH-photo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tex6z\\cmTC_d7c49.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.52
+        
+      exitCode: 0
+...
